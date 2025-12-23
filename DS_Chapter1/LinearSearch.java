@@ -1,4 +1,4 @@
-package DS_Chapter1;
+// package DS_Chapter1;
 
 public class LinearSearch {
     public static void main(String[] args) {

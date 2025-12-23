@@ -1,4 +1,4 @@
-package DS_Chapter1;
+//package DS_Chapter1;
 
 public class ArrayOperation {
     public static void main(String[] args) {
