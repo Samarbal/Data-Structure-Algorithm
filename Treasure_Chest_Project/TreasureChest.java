@@ -17,7 +17,7 @@ class Treasure {
 // ---------------------------------------------------------------
 
 public class TreasureChest {
-
+ 
     Treasure[] chest;
     int size;
     int capacity = 25; // maximum capacity of the chest
@@ -193,18 +193,17 @@ public class TreasureChest {
         Scanner input = new Scanner(System.in);
         // create a treasure chest
         TreasureChest chest = new TreasureChest();
-      
 
         int choice;
         System.out.println("=== Welcome to the Treasure Chest Management System ! ===");
-         System.out.println("----------------------------------------");
+        System.out.println("----------------------------------------");
 
-        System.out.println("We don't want you to start empty handed, so we have added some random treasures to your chest !");
-         System.out.println("----------------------------------------");
-          // to let the user start with some random treasures
+        System.out.println(
+                "We don't want you to start empty handed, so we have added some random treasures to your chest !");
+        System.out.println("----------------------------------------");
+        // to let the user start with some random treasures
         chest.randomDistribution();
-         System.out.println("----------------------------------------");
-
+        System.out.println("----------------------------------------");
 
         do {
             // display the operation menu
@@ -227,7 +226,7 @@ public class TreasureChest {
                     System.out.println("Enter the name of the treasure to add: ");
                     String name = input.nextLine();
                     chest.addTreasure(name);
-                     System.out.println("----------------------------------------");
+                    System.out.println("----------------------------------------");
                     break;
 
                 case 2:
@@ -235,13 +234,13 @@ public class TreasureChest {
                     System.out.println("Enter the name of the treasure to remove: ");
                     String removeName = input.nextLine();
                     chest.removeTreasure(removeName);
-                     System.out.println("----------------------------------------");
+                    System.out.println("----------------------------------------");
                     break;
 
                 case 3:
                     // dispaly all treasures
                     chest.displayChest();
-                     System.out.println("----------------------------------------");
+                    System.out.println("----------------------------------------");
                     break;
 
                 case 4:
@@ -249,24 +248,24 @@ public class TreasureChest {
                     System.out.println("Enter the name of the treasure to search for: ");
                     String searchName = input.nextLine();
                     chest.searchTreasure(searchName);
-                     System.out.println("----------------------------------------");
+                    System.out.println("----------------------------------------");
                     break;
 
                 case 5:
                     // count total treasures
                     System.out.println("Total treasures in chest: " + chest.totalCount());
-                     System.out.println("----------------------------------------");
+                    System.out.println("----------------------------------------");
                     break;
 
                 case 6:
                     // most frequent treasure
                     chest.mostFreqTreasure();
-                     System.out.println("----------------------------------------");
+                    System.out.println("----------------------------------------");
                     break;
 
                 case 7:
                     System.out.println("Exiting the Treasure Chest Management System. Goodbye!");
-                     System.out.println("----------------------------------------");
+                    System.out.println("----------------------------------------");
 
                 default:
                     break;

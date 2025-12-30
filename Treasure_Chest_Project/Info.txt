@@ -1,0 +1,28 @@
+Student Name : Samar Mohammed Baelousha 
+
+Student Number : 232022260
+
+Course: Data Structures and Algorithms
+
+Faculty: Faculty of Engineering 
+
+Department: intelligence Systems and Computer Engineering
+
+University: Al-Aqsa University
+
+Semester: First Semester 2025–2026
+
+Instructor: Eng. Firas Al-Ejla
+
+
+
+link to github :
+    https://github.com/Samarbal/Data-Structure-Algorithm/tree/main/Treasure_Chest_Project 
+
+link to You Tube video: 
+
+   https://youtu.be/E3-H8I4wpo4
+   
+
+
+
