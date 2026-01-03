@@ -1,0 +1,49 @@
+========================================
+            Student Information
+========================================
+Student Name   : Samar Mohammed Balousha 
+Student ID     : 2320222601
+University     : Al-Aqsa University
+Faculty        : Faculty of Engineering 
+Department     : Intelligence Systems and Computer Engineering 
+Course         : Data Structures and Algorithms
+Assignment     : Assignment 2
+Academic Year  : 2025 – 2026
+Instructor     : Firas Foad Al-Ejla
+
+========================================
+
+YouTube Video Link:
+[ضعي رابط فيديو اليوتيوب هنا]
+
+Github Link :
+
+
+                README
+========================================
+Project Title:
+Balanced Parentheses Checker Using Stack (Linked List)
+
+Project Description:
+This project implements a Stack data structure from scratch using
+a Linked List. The stack is used to check whether a mathematical
+expression has balanced parentheses.
+
+Supported brackets:
+- Parentheses: ()
+- Curly braces: {}
+- Square brackets: []
+
+How the program works:
+1. Opening brackets are pushed into the stack.
+2. Closing brackets are matched with the top of the stack.
+3. If a mismatch occurs or the stack is empty when a closing bracket
+   is found, the expression is not balanced.
+4. If the stack is empty at the end, the expression is balanced.
+
+Technologies Used:
+- Java
+- Linked List
+- Stack (LIFO)
+
+
