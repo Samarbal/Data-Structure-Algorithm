@@ -1,5 +1,7 @@
 package DS_Chapter5;
+import java.util.Scanner;
 // Chapter 5 Queue 
+
 // part 1: Simple Queue  : FIRST IN FIRST OUT (FIFO)
 public class SimpleQueue<T> {
     // perpar the node
@@ -81,19 +83,50 @@ public class SimpleQueue<T> {
     public static void main(String[] args) {
 
         SimpleQueue<Integer> queue = new SimpleQueue<>();
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Front element is : " + queue.peek());
-        queue.Enqueue(10);
-        queue.Enqueue(20);
-        queue.Enqueue(30);
+        int choice ;
+        System.out.println("Simple Queue Operations ");
+      
+        do {System.out.println("-------------------------");
+            System.out.println("1- Enqueue ");
+            System.out.println("2- Dequeue ");
+            System.out.println("3- Peek ");
+            System.out.println("4- Size ");
+            System.out.println("5- Exit ");
+            System.out.print("Enter your choice : ");
+            choice = input.nextInt();
 
-        System.out.println("queue size " + queue.size);
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter value to Enqueue : ");
+                    int value = input.nextInt();
+                    queue.Enqueue(value);
+                    System.out.println(value + " is added to the queue ");
+                    break;
+                case 2:
+                    Integer removedValue = queue.Dequeue();
+                    if (removedValue != null) {
+                        System.out.println(removedValue + " is removed from the queue ");
+                    }
+                    break;
+                case 3:
+                     System.out.println("Front element: " + queue.peek());
 
-        System.out.println("Remove " + queue.Dequeue());
-        System.out.println("Remove " + queue.Dequeue());
+                    break;
+                case 4:
+                    System.out.println("Queue size is : " + queue.size());
+                    break;
+                case 5:
+                    System.out.println("Exiting...");
+                    break;
+                default:
+                    System.out.println("Invalid choice. Please try again.");
+            }
+        }
+        while(choice != 5);
 
-        System.out.println("Front element is : " + queue.peek());
-
+        input.close();
     }
 
 }
