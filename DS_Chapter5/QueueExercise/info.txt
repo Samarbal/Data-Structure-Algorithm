@@ -1,0 +1,27 @@
+Student Name : Samar Mohammed Baelousha 
+
+Student Number : 2320222601 
+
+Course: Data Structures and Algorithms
+
+Faculty: Faculty of Engineering 
+
+Department: intelligence Systems and Computer Engineering
+
+University: Al-Aqsa University
+
+Semester: First Semester 2025–2026
+
+Instructor: Eng. Firas Al-Ejla
+
+
+link to github : 
+
+    https://github.com/Samarbal/Data-Structure-Algorithm/tree/main/DS_Chapter5/QueueExercise
+  
+link to You Tube video: 
+
+   https://youtu.be/yUnGZp2JH9Q 
+
+
+   
