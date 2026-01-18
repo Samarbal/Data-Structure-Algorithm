@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class SimpleQueueIntger {
     
-
-
-
-
     // perpar the node
     private class Node {
         int data;
