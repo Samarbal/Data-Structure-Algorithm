@@ -1,6 +1,6 @@
 package DS_Chapter8;
 
-public class SelectionArray {
+public class SelectionSort {
     // selection sort algorithm
     // time complexity: O(n^2) in worst, average, and best case
 
