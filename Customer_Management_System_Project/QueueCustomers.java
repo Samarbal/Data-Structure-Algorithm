@@ -52,8 +52,7 @@ public class QueueCustomers {
         size++;
     }
 
-    // Dequeue function : deleting customers from front of the queue after being
-    // served
+    // Dequeue function : deleting customers from front of the queue after being served
     public Customer Dequeue() {
 
         // check if empty
