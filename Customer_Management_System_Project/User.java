@@ -7,6 +7,7 @@ public class User {
     private String password;
     private boolean isAdmin;
     private boolean isActive;
+    private Stack serverdCustomers;
 
     // Constructor
     public User(String username, String password, boolean isAdmin, boolean isActive) {
@@ -14,6 +15,8 @@ public class User {
         this.password = password;
         this.isAdmin = isAdmin;
         this.isActive = isActive;
+        this.serverdCustomers = new Stack();
+
     }
 
     // Getters and Setters
@@ -37,9 +40,8 @@ public class User {
         this.isActive = isActive;
     }
 
-    @Override
-    public String toString() {
-        return "Username: " + username + ", Is Admin: " + isAdmin + ", Is Active: " + isActive;
+    public Stack getServedCustomer() {
+        return serverdCustomers;
     }
 
 }
