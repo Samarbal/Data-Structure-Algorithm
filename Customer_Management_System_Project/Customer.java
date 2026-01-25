@@ -14,15 +14,17 @@ public class Customer {
     private boolean solved;
     private String servedBy;
 
-    // Constructor
-    public Customer(String name, int nationalId, String address, String issue) {
+
+
+    // Constructor for initial queue addition (only generates ID)
+    public Customer() {
         this.id = waitingId++;
-        this.name = name;
-        this.nationalId = nationalId;
-        this.address = address;
-        this.issue = issue;
-        this.solved = false; // Initially not solved
-        this.servedBy = ""; // No one has served the customer yet
+        this.name = "";
+        this.nationalId = 0;
+        this.address = "";
+        this.issue = "";
+        this.solved = false;
+        this.servedBy = "";
     }
 
     // Getters and Setters
@@ -33,6 +35,7 @@ public class Customer {
     public String getName() {
         return name;
     }
+
 
     public int getNationalId() {
         return nationalId;
@@ -54,19 +57,37 @@ public class Customer {
         return servedBy;
     }
 
+    public void setName (String name ){
+        this.name = name ; 
+    }
+     public void setNationalId (int  id  ){
+        this.nationalId = id ; 
+    }
+     public void setAddress (String address ){
+        this.address= address ; 
+    }
+
+     public void setIssue (String issue ){
+        this.issue= issue ;}
+        
     public void setSolved(boolean solved) {
         this.solved = solved;
     }
+
 
     public void setServedBy(String servedBy) {
         this.servedBy = servedBy;
     }
 
-    @Override
-    public String toString() {
-        return "Customer ID: \"%03d\" " + id + ", Name: " + name + ", National ID: " + nationalId +
-                ", Address: " + address + ", Issue: " + issue + ", Solved: " + solved +
-                ", Served By: " + servedBy;
-    }
+@Override
+public String toString() {
+    return "Customer ID: " + String.format("%03d", id) +
+           ", Name: " + name +
+           ", National ID: " + nationalId +
+           ", Address: " + address +
+           ", Issue: " + issue +
+           ", Solved: " + (solved ? "Yes" : "No") +
+           ", Served By: " + servedBy;
+}
 
 }
