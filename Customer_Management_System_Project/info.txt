@@ -1,0 +1,18 @@
+Project Name: Customer Management System
+Course: Data Structures and Algorithms
+
+Student Name: Samar Mohammed Balousha 
+
+Student Number: 2320222601
+
+Description:
+This project simulates a customer service system using core data structures.
+Queue is used to manage waiting customers, Stack is used to track served customers,
+and ArrayBag is used to store users and customer records.
+
+Admin can manage employees and view service reports.
+Employees can serve customers and search customer issues.
+
+github link:  https://github.com/Samarbal/Data-Structure-Algorithm/tree/main/Customer_Management_System_Project
+
+Youtube link :  https://youtu.be/hwxxhnTbea8 
