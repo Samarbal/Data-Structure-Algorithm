@@ -118,8 +118,8 @@ A problem-solving project applying data structures concepts.
 
 ---
 
-## 📎 Notes
+##  Notes
 This repository is for **educational purposes** and reflects my learning journey throughout the course.
 
-⭐ Feel free to explore the code and projects.
+
 
